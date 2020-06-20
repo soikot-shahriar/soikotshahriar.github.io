@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../img/back1.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+
+nav{
+  height: 60px;
+  width:100%;
+  position: fixed;
+}
+
+nav ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 20px;
+  display: flex;
+}
+
+nav ul li{
+  float: right;
+  position: center;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 50px;
+  margin-right: 5px;
+}
+
+nav ul li a:hover{
+  background-color: white;
+  color: black;
+  transition: 0.3s ease;
+  border-radius: 6px;
+  font-size: 120%
+
+}
+
+.active{
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+}
+
+
+img{
+  border: 1px solid;
+  border-style: solid;
+  border-radius: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  animation: animate 1s linear;
+}
+
+@keyframes animate {
+  0%{
+    opacity: 0%;
+    transform: rotateY(90deg);
+  }
+  100%{
+    opacity: 50%;
+    transform: rotateY(0deg);
+  }
+}
+
+.left{
+color: white;
+
+}
+
+h2{
+  padding-right: 20%;
+  margin-left: 30%;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-top: -5%;
+}
+
+p{
+  padding-right: 20%;
+margin-left: 30%;
+margin-top: 1%;
+font-family: sans-serif;
+}
